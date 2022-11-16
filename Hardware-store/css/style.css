@@ -1,0 +1,100 @@
+*{
+    --colorAmarillo: rgb(245, 184, 29);
+}
+
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.container-intro{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(5 , 1fr);
+    height: 600px;
+    background-image: url(/img/imagenprincipal.jpg);
+}
+
+
+.card-intro{
+
+    height: 300px;
+    width: 400px;
+    background-color: rgb(245, 184, 29);
+    text-align: center;
+
+    grid-column: 2;
+    grid-row: 4;
+
+    border-radius: 10px;
+    text-transform: uppercase;
+
+}
+
+.card-intro > h1{
+    font-size: 50px;
+}
+
+
+.title-products{
+    color: rgb(245, 184, 29);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+.container-products{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    
+    
+    
+}
+
+
+.text-products{
+    font-size: 1.4rem;
+}
+
+
+.card-products > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+
+.card-products > h1{
+    color: var(--colorAmarillo);
+    font-size: 2.5rem;
+}
+
+.card-products > p {
+    font-size: 1.2rem;
+}
+
+
+.container-services{
+
+
+    background: black;
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    text-align: center;
+
+
+}
+
+
+.card-service > h1{
+    color: var(--colorAmarillo);
+}
+
+
+.card-service > p{
+    color: aliceblue;
+    text-align: center;
+}
